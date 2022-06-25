@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="703.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Study">
+   <children>
+      <Button fx:id="Back" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="Recorder" layoutX="22.0" layoutY="95.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="285.0" text="Записаться на занятие">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="History" layoutX="22.0" layoutY="216.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="285.0" text="История посещений">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Options" layoutX="396.0" layoutY="95.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="285.0" text="Настройки данных">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="information" layoutX="396.0" layoutY="216.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="285.0" text="Информация о автошколе">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

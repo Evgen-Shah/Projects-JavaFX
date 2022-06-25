@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OkUpdate">
+   <children>
+      <Text layoutX="37.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ваши данные успешно изменены!" wrappingWidth="427.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="Commet" layoutX="162.0" layoutY="121.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="177.0" text="Отлично!">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

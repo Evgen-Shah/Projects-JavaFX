@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="550.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Order_controller">
+   <children>
+      <ComboBox fx:id="Time" layoutX="98.0" layoutY="151.0" prefHeight="27.0" prefWidth="355.0" />
+      <Text layoutX="148.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оформление заявки">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button fx:id="choise" layoutX="212.0" layoutY="418.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="128.0" text="Выбрать">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="98.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите время">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор мастера">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="Masters" layoutX="98.0" layoutY="239.0" prefHeight="27.0" prefWidth="355.0" />
+      <ComboBox fx:id="Address" layoutX="98.0" layoutY="325.0" prefHeight="27.0" prefWidth="355.0" />
+      <Text layoutX="98.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адресс">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

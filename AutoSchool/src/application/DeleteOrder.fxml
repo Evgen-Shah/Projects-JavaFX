@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="367.0" prefWidth="428.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeleteItemClass">
+   <children>
+      <ChoiceBox fx:id="Choise_box" layoutX="69.0" layoutY="169.0" prefHeight="30.0" prefWidth="290.0" />
+      <Label id="Lab" fx:id="Label_Choise" contentDisplay="CENTER" layoutX="103.0" layoutY="94.0" prefHeight="32.0" prefWidth="211.0" text="Выберите заявку" textAlignment="CENTER">
+         <font>
+            <Font name="Century" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="Delete_button" layoutX="154.0" layoutY="242.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="109.0" text="Удалить">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back_button" layoutX="22.0" layoutY="22.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="97.0" text="Назад" />
+   </children>
+</AnchorPane>

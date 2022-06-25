@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="418.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StyduWindow_controll">
+   <children>
+      <Button fx:id="entry" layoutX="93.0" layoutY="249.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="232.0" text="Войти">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="reg" layoutX="93.0" layoutY="109.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="232.0" text="Зарегистрироваться">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="32.0" layoutY="36.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

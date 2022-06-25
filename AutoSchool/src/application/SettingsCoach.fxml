@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="393.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_coach">
+   <children>
+      <Button fx:id="Back" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="Recorder" layoutX="66.0" layoutY="91.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="261.0" text="Посмотреть заявки">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Cansel" layoutX="66.0" layoutY="212.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="261.0" text="Отмена заявок">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

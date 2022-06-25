@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="478.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InformationAboutAuto">
+   <children>
+      <Button fx:id="Back" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="50.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адресс:" wrappingWidth="195.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона администратора:" wrappingWidth="195.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="adress" layoutX="269.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="195.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="phone" layoutX="269.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="195.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="142.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация о автошколе">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

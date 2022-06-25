@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="490.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EntryCoach">
+   <children>
+      <Text layoutX="98.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вход инструктора" textAlignment="CENTER" wrappingWidth="293.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="Back" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="51.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите номер вашего телефона:" textAlignment="CENTER" wrappingWidth="389.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="phone" layoutX="118.0" layoutY="182.0" prefHeight="25.0" prefWidth="256.0" />
+      <Button fx:id="Entry" layoutX="156.0" layoutY="348.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="176.0" text="Вход">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Text layoutX="177.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите пароль:" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="pass" layoutX="118.0" layoutY="245.0" prefHeight="25.0" prefWidth="256.0" text="1111" />
+      <Text fx:id="passWrong" layoutX="158.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Неправильно введен пароль">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

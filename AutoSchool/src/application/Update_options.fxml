@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="585.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Update_options">
+   <children>
+      <Text layoutX="153.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить данные" textAlignment="CENTER" wrappingWidth="276.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="Back" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="225.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить автошколу">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="adress" layoutX="171.0" layoutY="336.0" prefHeight="27.0" prefWidth="260.0" />
+      <PasswordField fx:id="pass" layoutX="357.0" layoutY="245.0" prefHeight="25.0" prefWidth="209.0" text="1111" />
+      <Text layoutX="357.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить пароль:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="Button_reg" layoutX="213.0" layoutY="400.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="176.0" text="Изменить">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="33.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить Ваш номер телефона:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="357.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить Вашу фамилию:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="29.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменить Ваше имя:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Phone_number" layoutX="34.0" layoutY="245.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="SecondName" layoutX="354.0" layoutY="149.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="Name" layoutX="30.0" layoutY="149.0" prefHeight="25.0" prefWidth="209.0" />
+   </children>
+</AnchorPane>

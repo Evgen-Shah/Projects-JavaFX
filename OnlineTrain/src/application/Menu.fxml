@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="409.0" prefWidth="449.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu">
+   <children>
+      <Button fx:id="sign_up" layoutX="244.0" layoutY="113.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="168.0" text="Записаться на занятие">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="yours_roll" layoutX="38.0" layoutY="241.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="168.0" text="Ваши записи">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="38.0" layoutY="113.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="168.0" text="Отменить занятие">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="196.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="63.0" text="Назад" />
+      <Button fx:id="lk" layoutX="244.0" layoutY="241.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="168.0" text="Личный кабинет">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="439.0" prefWidth="499.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Registration">
+   <children>
+      <TextField fx:id="phone" layoutX="68.0" layoutY="113.0" prefHeight="25.0" prefWidth="361.0" text="89876543212" />
+      <Button fx:id="reg" layoutX="176.0" layoutY="382.0" mnemonicParsing="false" text="Зарегистрироваться">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="192.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ФИО:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="names" layoutX="68.0" layoutY="173.0" prefHeight="25.0" prefWidth="361.0" text="Фамилия Имя Отчество" />
+      <Button fx:id="back" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="68.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата рождения в формате (ДД.ММ.ГГГГ):">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="date" layoutX="68.0" layoutY="238.0" prefHeight="25.0" prefWidth="361.0" text="01.01.2000" />
+      <TextField fx:id="pass" layoutX="69.0" layoutY="299.0" prefHeight="25.0" prefWidth="361.0" />
+   </children>
+</AnchorPane>

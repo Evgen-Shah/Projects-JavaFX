@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="165.0" prefWidth="430.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Your_train">
+   <children>
+      <Text layoutX="156.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ваши записи">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="state" layoutX="19.0" layoutY="99.0" prefHeight="25.0" prefWidth="393.0" />
+      <Button fx:id="back" layoutX="19.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

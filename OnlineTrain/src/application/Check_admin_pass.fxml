@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="268.0" prefWidth="392.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Check_admin_pass">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="enter" layoutX="157.0" layoutY="201.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="79.0" text="Войти">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="pass" layoutX="23.0" layoutY="115.0" prefHeight="34.0" prefWidth="346.0" />
+      <Text layoutX="23.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите пароль:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

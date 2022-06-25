@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="429.0" prefWidth="392.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.add_train">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Назад" />
+      <TextField fx:id="time" layoutX="50.0" layoutY="288.0" prefHeight="25.0" prefWidth="294.0" />
+      <Button fx:id="add" layoutX="157.0" layoutY="347.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="79.0" text="Добавить " />
+      <Text layoutX="53.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить время тренировок (ЧЧ:ММ):">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="train" layoutX="49.0" layoutY="88.0" prefHeight="25.0" prefWidth="294.0" />
+      <Text layoutX="51.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тренировки:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="53.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Название тренировки:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="50.0" layoutY="223.0" prefHeight="25.0" prefWidth="294.0" />
+      <Text layoutX="51.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время тренировок:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="timeTrain" layoutX="49.0" layoutY="155.0" prefHeight="25.0" prefWidth="294.0" />
+   </children>
+</AnchorPane>

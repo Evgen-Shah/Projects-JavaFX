@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="313.0" prefWidth="450.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu_admin">
+   <children>
+      <Text layoutX="119.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Управление занятиями">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="add" layoutX="74.0" layoutY="99.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="302.0" text="Добавить занятие">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" layoutX="74.0" layoutY="200.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="302.0" text="Удалить занятие">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

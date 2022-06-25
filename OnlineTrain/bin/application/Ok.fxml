@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="174.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Ok">
+   <children>
+      <Text layoutX="21.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Запись успешно оформлена">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="92.0" layoutY="130.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="Вернуться в меню" />
+   </children>
+</AnchorPane>

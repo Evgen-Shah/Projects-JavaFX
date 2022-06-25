@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="311.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Office">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="201.0" mnemonicParsing="false" text="Назад" />
+      <ChoiceBox fx:id="films" layoutX="17.0" layoutY="143.0" prefHeight="25.0" prefWidth="278.0" />
+      <Text fx:id="subscription" layoutX="18.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ваша подписка: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Купленные фильмы:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="monye" layoutX="18.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Средств на счету:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="addMonye" layoutX="176.0" layoutY="201.0" mnemonicParsing="false" text="Пополнисть счет" />
+   </children>
+</AnchorPane>

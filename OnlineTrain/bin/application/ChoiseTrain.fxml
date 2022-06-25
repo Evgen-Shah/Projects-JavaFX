@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="448.0" prefWidth="430.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChoiseTrain">
+   <children>
+      <Text layoutX="113.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите тренировку">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="train" layoutX="13.0" layoutY="109.0" prefHeight="36.0" prefWidth="403.0" />
+      <Button fx:id="choise" layoutX="175.0" layoutY="363.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="79.0" text="Выбрать">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="13.0" layoutY="17.0" mnemonicParsing="false" text="Назад" />
+      <ChoiceBox fx:id="time" layoutX="13.0" layoutY="197.0" prefHeight="36.0" prefWidth="403.0" />
+      <Text layoutX="13.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите время:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="date" layoutX="13.0" layoutY="276.0" prefHeight="36.0" prefWidth="403.0" />
+      <Text layoutX="13.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите дату:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

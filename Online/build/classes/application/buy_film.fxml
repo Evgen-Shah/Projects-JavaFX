@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.buy_film_">
+   <children>
+      <ChoiceBox fx:id="genre" layoutX="55.0" layoutY="50.0" prefHeight="26.0" prefWidth="210.0" />
+      <ChoiceBox fx:id="rait" layoutX="55.0" layoutY="127.0" prefHeight="26.0" prefWidth="210.0" />
+      <ChoiceBox fx:id="price" layoutX="55.0" layoutY="201.0" prefHeight="26.0" prefWidth="210.0" />
+      <Text layoutX="137.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Жанр">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="127.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Рейтинг">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="255.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="137.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена" wrappingWidth="45.7294921875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="ok" layoutX="243.0" layoutY="255.0" mnemonicParsing="false" text="Выбрать" />
+   </children>
+</AnchorPane>

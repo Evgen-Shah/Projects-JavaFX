@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="437.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" style="-fx-background-color: E6ECEC;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Entry">
+   <children>
+      <TextField fx:id="phone" layoutX="34.0" layoutY="132.0" prefHeight="25.0" prefWidth="361.0" />
+      <TextField fx:id="pass" layoutX="34.0" layoutY="192.0" prefHeight="25.0" prefWidth="361.0" />
+      <Button fx:id="entry" layoutX="187.0" layoutY="233.0" mnemonicParsing="false" text="Войти">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="reg" layoutX="155.0" layoutY="298.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="120.0" text="Регистрация">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="193.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вход">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="admin" layoutX="254.0" layoutY="398.0" mnemonicParsing="false" text="Войти как администратор " />
+   </children>
+</AnchorPane>

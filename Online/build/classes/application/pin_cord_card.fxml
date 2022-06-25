@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pin_cord_card_">
+   <children>
+      <Text fx:id="price" layoutX="21.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оплата">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="card" layoutX="14.0" layoutY="78.0" prefHeight="26.0" prefWidth="274.0" />
+      <TextField fx:id="pinCode" layoutX="14.0" layoutY="131.0" prefHeight="26.0" prefWidth="274.0" />
+      <Text layoutX="21.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер карты (16 цифр без пробела):">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пин-код:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="buy" layoutX="212.0" layoutY="172.0" mnemonicParsing="false" text="Оплатить" />
+      <Button fx:id="back" layoutX="18.0" layoutY="172.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

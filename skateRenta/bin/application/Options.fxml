@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Options_control">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="269.0" style="-fx-background-color: a49cff;">
+         <children>
+            <Button fx:id="back" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+            <Label layoutX="101.0" layoutY="14.0" text="Меню" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="renta_time" layoutX="50.0" layoutY="79.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="169.0" text="Забронировать время">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="history" layoutX="50.0" layoutY="178.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="169.0" text="Просмотреть историю" textAlignment="JUSTIFY">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="50.0" layoutY="382.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="169.0" text="Отменить бронирование" />
+      <Button fx:id="change_data" layoutX="50.0" layoutY="282.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="169.0" text="Поменять личные данные" />
+      <AnchorPane layoutY="482.0" prefHeight="57.0" prefWidth="269.0" style="-fx-background-color: a49cff;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.time_control">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="600.0" style="-fx-background-color: a49cff;">
+         <children>
+            <Label layoutX="212.0" layoutY="14.0" text="Выбор времени" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="choise" layoutX="219.0" layoutY="193.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="165.0" text="Выбор">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="time" layoutX="74.0" layoutY="89.0" prefHeight="35.0" prefWidth="456.0" promptText="Введите дату и время в формате (ДД-ММ-ГГ ЧЧ:ММ)" />
+      <AnchorPane layoutY="262.0" prefHeight="63.0" prefWidth="600.0" style="-fx-background-color: a49cff;" />
+      <Text fx:id="error" layoutX="154.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите дату и время в формате (ДД-ММ-ГГ ЧЧ:ММ)" />
+      <Text fx:id="error1" layoutX="185.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите дату и время в формате (ДД-ММ-ГГ ЧЧ:ММ)" />
+   </children>
+</AnchorPane>

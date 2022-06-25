@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="206.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.retna_ok">
+   <children>
+      <Text layoutX="24.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бронирование успешно оформлено">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="ok" layoutX="235.0" layoutY="131.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="130.0" text="Хорошо" />
+   </children>
+</AnchorPane>

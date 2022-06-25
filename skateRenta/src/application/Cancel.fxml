@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Cancel_control">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="468.0" style="-fx-background-color: a49cff;">
+         <children>
+            <Button fx:id="back" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+            <Text fill="WHITE" layoutX="111.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отмена бронирования" wrappingWidth="267.5546875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="rentas" layoutX="38.0" layoutY="119.0" prefHeight="35.0" prefWidth="407.0" />
+      <Button fx:id="Cancel" layoutX="154.0" layoutY="202.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="161.0" text="Отменить">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="285.0" prefHeight="52.0" prefWidth="468.0" style="-fx-background-color: a49cff;" />
+   </children>
+</AnchorPane>

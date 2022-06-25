@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="700.0" style="-fx-background-color: a49cff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Settings_control">
+   <children>
+      <AnchorPane layoutY="61.0" prefHeight="387.0" prefWidth="700.0" style="-fx-background-color: fafafa;">
+         <children>
+            <Button fx:id="reg" layoutX="498.0" layoutY="247.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Изменить" textFill="#4a1717">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="name" layoutX="111.0" layoutY="36.0" promptText="Фёдор">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="second_name" layoutX="111.0" layoutY="102.0" prefHeight="31.0" prefWidth="187.0" promptText="Фёдоров" />
+            <TextField fx:id="year" layoutX="460.0" layoutY="36.0" prefHeight="31.0" prefWidth="187.0" promptText="20">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Text layoutX="64.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="35.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="389.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Возраст">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="335.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="phone" layoutX="460.0" layoutY="102.0" promptText="+75555555555">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Text layoutX="456.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Возраст должен быть больше 6 лет" />
+            <TextField fx:id="pass" layoutX="175.0" layoutY="200.0" prefHeight="25.0" prefWidth="350.0" />
+            <Text layoutX="324.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutY="338.0" prefHeight="50.0" prefWidth="700.0" style="-fx-background-color: a49cff;" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="218.0" layoutY="14.0" text="Изменение данных" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Calibri" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

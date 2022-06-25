@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="585.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Registration">
+   <children>
+      <Text layoutX="200.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" textAlignment="CENTER" wrappingWidth="184.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="Back" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="Назад" />
+      <TextField fx:id="Name" layoutX="98.0" layoutY="126.0" prefHeight="25.0" prefWidth="389.0" />
+      <TextField fx:id="SecondName" layoutX="98.0" layoutY="181.0" prefHeight="25.0" prefWidth="389.0" />
+      <TextField fx:id="Phone_number" layoutX="98.0" layoutY="233.0" prefHeight="25.0" prefWidth="389.0" />
+      <Text layoutX="98.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ваше имя:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите вашу фамилию:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ваш номер телефона:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите номер вашего автомобиля:" wrappingWidth="389.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Auto" layoutX="99.0" layoutY="336.0" prefHeight="25.0" prefWidth="389.0" />
+      <Text layoutX="99.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Например: А550ОР" />
+      <Button fx:id="Button_reg" layoutX="204.0" layoutY="412.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="176.0" text="Зарегистрироваться">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="99.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите пароль:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="pass" layoutX="97.0" layoutY="285.0" prefHeight="25.0" prefWidth="389.0" text="1111" />
+   </children>
+</AnchorPane>

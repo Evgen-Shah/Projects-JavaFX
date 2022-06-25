@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="585.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Choise_Driver">
+   <children>
+      <Button fx:id="Back" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="Service" layoutX="183.0" layoutY="97.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="219.0" text="Выбрать услугу">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="History" layoutX="183.0" layoutY="212.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="219.0" text="История">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Options" layoutX="183.0" layoutY="333.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="219.0" text="Настройки">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

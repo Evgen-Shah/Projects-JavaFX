@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="418.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EntryAndRegistration">
+   <children>
+      <Button fx:id="Registration" layoutX="14.0" layoutY="140.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="162.0" text="Регистрация">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Entry" layoutX="242.0" layoutY="140.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="162.0" text="Вход">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Text layoutX="120.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Автомойка " textAlignment="CENTER" wrappingWidth="178.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

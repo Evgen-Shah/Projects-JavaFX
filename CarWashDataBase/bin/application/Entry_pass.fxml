@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="585.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Entry_pass_driver">
+   <children>
+      <Text layoutX="200.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вход" textAlignment="CENTER" wrappingWidth="184.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="Back" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="98.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите номер вашего автомобиля:" textAlignment="CENTER" wrappingWidth="389.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Auto" layoutX="98.0" layoutY="181.0" prefHeight="25.0" prefWidth="389.0" />
+      <Button fx:id="Entry" layoutX="203.0" layoutY="345.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="176.0" text="Вход">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Text layoutX="224.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите пароль:" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="pass" layoutX="97.0" layoutY="244.0" prefHeight="25.0" prefWidth="389.0" text="1111" />
+      <Text fx:id="passWrong" layoutX="244.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Неверный пароль" />
+   </children>
+</AnchorPane>

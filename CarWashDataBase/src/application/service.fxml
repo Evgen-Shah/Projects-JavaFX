@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Arc_ID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="585.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.service_driver">
+   <children>
+      <ComboBox fx:id="Time" layoutX="115.0" layoutY="196.0" prefHeight="27.0" prefWidth="355.0" />
+      <ComboBox fx:id="Service_choise" layoutX="115.0" layoutY="109.0" prefHeight="27.0" prefWidth="355.0" />
+      <Text layoutX="202.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор услуги">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button fx:id="choise" layoutX="228.0" layoutY="495.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="128.0" text="Выбрать">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" text="Назад" />
+      <Text layoutX="115.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор услуги">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите время">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="dust" layoutX="69.0" layoutY="444.0" mnemonicParsing="false" text="Убрать пыль">
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="water" layoutX="246.0" layoutY="444.0" mnemonicParsing="false" text="Влажная уборка" toggleGroup="$group" />
+      <RadioButton fx:id="hard" layoutX="424.0" layoutY="444.0" mnemonicParsing="false" text="Сильные загрязнения" toggleGroup="$group" />
+      <Text layoutX="115.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор мастера">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="Masters" layoutX="115.0" layoutY="284.0" prefHeight="27.0" prefWidth="355.0" />
+      <ComboBox fx:id="Address" layoutX="115.0" layoutY="370.0" prefHeight="27.0" prefWidth="355.0" />
+      <Text layoutX="115.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адресс">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

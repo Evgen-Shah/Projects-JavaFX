@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="386.0" prefWidth="424.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu_admin_class">
+   <children>
+      <Text layoutX="90.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню администратора" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="333.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="delete" layoutX="79.0" layoutY="87.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="267.0" text="Удалить актив">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="add" layoutX="79.0" layoutY="178.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="267.0" text="Добавить актив">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="history" layoutX="79.0" layoutY="268.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="267.0" text="История изменений">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

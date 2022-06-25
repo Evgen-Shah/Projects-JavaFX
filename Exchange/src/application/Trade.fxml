@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="326.0" prefWidth="356.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Trade_class">
+   <children>
+      <Text layoutX="88.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор операции" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="buy" layoutX="75.0" layoutY="88.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="206.0" text="Long">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="sell" layoutX="75.0" layoutY="181.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="206.0" text="Short">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="287.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

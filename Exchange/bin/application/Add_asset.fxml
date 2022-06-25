@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="329.0" prefWidth="424.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Add_asset_class">
+   <children>
+      <Text layoutX="155.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавление" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="15.0" layoutY="290.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="add" layoutX="152.0" layoutY="261.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="121.0" text="Добавить">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="name" layoutX="39.0" layoutY="88.0" prefHeight="25.0" prefWidth="361.0" />
+      <TextField fx:id="price" layoutX="39.0" layoutY="151.0" prefHeight="25.0" prefWidth="361.0" />
+      <Text layoutX="39.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Название актива:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена актива:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="assets" layoutX="39.0" layoutY="208.0" prefHeight="25.0" prefWidth="361.0" />
+      <Text layoutX="39.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Активы: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

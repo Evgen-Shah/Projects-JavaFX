@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="436.0" prefWidth="424.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login_window_class">
+   <children>
+      <Text layoutX="143.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация " textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fio" layoutX="13.0" layoutY="117.0" prefHeight="25.0" prefWidth="375.0" text="ФИО" />
+      <TextField fx:id="birth" layoutX="13.0" layoutY="176.0" prefHeight="25.0" prefWidth="375.0" text="ДД-ММ-ГГ" />
+      <TextField fx:id="phone" layoutX="13.0" layoutY="236.0" prefHeight="25.0" prefWidth="375.0" text="Номер телефона" />
+      <Text layoutX="13.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите Ваше ФИО:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите свою дату рождения (в формате ДД-ММ-ГГ): ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите Ваш номер телефона:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="admin" layoutX="12.0" layoutY="386.0" mnemonicParsing="false" text="Войти как администратор" />
+      <Button fx:id="reg" layoutX="132.0" layoutY="330.0" mnemonicParsing="false" text="Зарегистрироваться">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="12.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите пароль:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="pass" layoutX="12.0" layoutY="293.0" prefHeight="25.0" prefWidth="375.0" text="Пароль" />
+      <Button fx:id="users" layoutX="252.0" layoutY="386.0" mnemonicParsing="false" text="Войти как пользователь" />
+   </children>
+</AnchorPane>

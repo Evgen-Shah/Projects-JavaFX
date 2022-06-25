@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="272.0" prefWidth="356.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Choise_assets_class">
+   <children>
+      <Text layoutX="105.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбор актива" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="233.0" mnemonicParsing="false" text="Назад" />
+      <ChoiceBox fx:id="active" layoutX="14.0" layoutY="85.0" prefHeight="25.0" prefWidth="328.0" />
+      <TextField fx:id="counts" layoutX="14.0" layoutY="148.0" prefHeight="25.0" prefWidth="328.0" />
+      <Button fx:id="choise" layoutX="139.0" layoutY="194.0" mnemonicParsing="false" text="Выбрать">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите количество:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Актив:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

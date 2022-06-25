@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="312.0" prefWidth="424.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Enter_class">
+   <children>
+      <Text layoutX="181.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Войти" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="phone" layoutX="25.0" layoutY="113.0" prefHeight="25.0" prefWidth="375.0" text="Номер телефона" />
+      <Text layoutX="25.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите Ваш номер телефона:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="enter" layoutX="181.0" layoutY="235.0" mnemonicParsing="false" text="Войти">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="24.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите пароль:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="pass" layoutX="24.0" layoutY="170.0" prefHeight="25.0" prefWidth="375.0" text="Пароль" />
+      <Button fx:id="back" layoutX="24.0" layoutY="25.0" mnemonicParsing="false" text="Назад">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

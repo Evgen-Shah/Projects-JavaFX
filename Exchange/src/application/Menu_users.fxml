@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="465.0" prefWidth="424.0" style="-fx-background-color: DBE4EB;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Menu_users_class">
+   <children>
+      <Text fx:id="name" layoutX="68.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро пожаловать, " textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="trade" layoutX="75.0" layoutY="76.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="274.0" text="Торговля">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="history" layoutX="75.0" layoutY="164.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="274.0" text="История операций">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="active" layoutX="75.0" layoutY="253.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="274.0" text="Мои активы">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="426.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="addBalance" layoutX="75.0" layoutY="340.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="274.0" text="Пополнить баланс">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

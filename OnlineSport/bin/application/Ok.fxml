@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="307.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Ok">
+   <children>
+      <Button fx:id="ok" layoutX="99.0" layoutY="138.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="110.0" text="Oк" />
+      <Text layoutX="59.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заявка оформлена">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

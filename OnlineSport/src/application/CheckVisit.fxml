@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="307.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CheckVisit">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="247.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" text="Назад" />
+      <Text layoutX="112.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Занатия">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="yors" layoutX="13.0" layoutY="117.0" prefHeight="54.0" prefWidth="281.0" />
+   </children>
+</AnchorPane>

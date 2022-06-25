@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="307.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUp">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="247.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" text="Назад" />
+      <Text layoutX="87.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите занятие">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="train" layoutX="18.0" layoutY="107.0" prefHeight="38.0" prefWidth="270.0" />
+      <Button fx:id="choise" layoutX="107.0" layoutY="190.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="93.0" text="Выбрать" />
+   </children>
+</AnchorPane>

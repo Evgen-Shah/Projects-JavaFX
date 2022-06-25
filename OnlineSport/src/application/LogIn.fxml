@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="307.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login">
+   <children>
+      <Button fx:id="enter" layoutX="78.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" text="Войти" />
+      <Button fx:id="reg" layoutX="78.0" layoutY="241.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" text="Зарегистрироваться" />
+      <TextField fx:id="phone" layoutX="18.0" layoutY="62.0" prefHeight="25.0" prefWidth="271.0" />
+      <TextField fx:id="pass" layoutX="18.0" layoutY="119.0" prefHeight="25.0" prefWidth="271.0" />
+      <Text layoutX="18.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона:" />
+      <Text layoutX="18.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="307.0" style="-fx-background-color: E6ECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuForUsers">
+   <children>
+      <Button fx:id="reg" layoutX="45.0" layoutY="30.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="218.0" text="Записаться на занятие" />
+      <Button fx:id="check" layoutX="45.0" layoutY="142.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="218.0" text="Просмотреть предстоящие занятия" />
+      <Button fx:id="back" layoutX="14.0" layoutY="247.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" text="Назад" />
+   </children>
+</AnchorPane>

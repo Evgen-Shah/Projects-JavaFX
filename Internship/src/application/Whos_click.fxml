@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="293.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Whos_click">
+   <children>
+      <Text layoutX="91.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кто откликнулся на Ваши заявки">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Назад" />
+      <ChoiceBox fx:id="Whos" layoutX="13.0" layoutY="124.0" prefHeight="78.0" prefWidth="454.0" />
+      <Button fx:id="yep" layoutX="37.0" layoutY="229.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="135.0" text="Принять" />
+      <Button fx:id="nope" layoutX="300.0" layoutY="229.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="135.0" text="Отказ" />
+   </children>
+</AnchorPane>

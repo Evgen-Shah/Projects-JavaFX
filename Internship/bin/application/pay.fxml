@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="326.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pay">
+   <children>
+      <Text layoutX="179.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оплата">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="card" layoutX="34.0" layoutY="143.0" prefHeight="25.0" prefWidth="363.0" />
+      <TextField fx:id="pinCode" layoutX="34.0" layoutY="206.0" prefHeight="25.0" prefWidth="363.0" />
+      <Text layoutX="34.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер карты - 16 цифр:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пин-код:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="21.0" layoutY="17.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="pay" layoutX="168.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="87.0" text="Оплатить">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="12.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Для добавления стажировки необходимо оплатить взнос:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="12.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="250 рублей.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

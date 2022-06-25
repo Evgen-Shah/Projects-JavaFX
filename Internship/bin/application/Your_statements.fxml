@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="253.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Your_statements">
+   <children>
+      <Text layoutX="157.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ваши заявки">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="state" layoutX="19.0" layoutY="99.0" prefHeight="25.0" prefWidth="393.0" />
+      <Button fx:id="Check" layoutX="166.0" layoutY="189.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="99.0" text="Узнать статус" />
+      <Button fx:id="back" layoutX="19.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+      <Text fx:id="status" layoutX="19.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

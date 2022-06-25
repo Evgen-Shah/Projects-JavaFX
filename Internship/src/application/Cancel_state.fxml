@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="237.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Cancel_state">
+   <children>
+      <Text layoutX="147.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Удалить заявку">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="state" layoutX="19.0" layoutY="99.0" prefHeight="25.0" prefWidth="393.0" />
+      <Button fx:id="delete" layoutX="183.0" layoutY="174.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="64.0" text="Удалить" />
+      <Button fx:id="back" layoutX="19.0" layoutY="19.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

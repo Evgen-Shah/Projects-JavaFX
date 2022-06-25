@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="350.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Competence">
+   <children>
+      <Text layoutX="85.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Укажите ваши компетенции">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="educ" layoutX="13.0" layoutY="109.0" prefHeight="25.0" prefWidth="403.0" />
+      <Button fx:id="choise" layoutX="175.0" layoutY="280.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="79.0" text="Выбрать">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="13.0" layoutY="17.0" mnemonicParsing="false" text="Назад" />
+      <ChoiceBox fx:id="exp" layoutX="13.0" layoutY="168.0" prefHeight="25.0" prefWidth="403.0" />
+      <ChoiceBox fx:id="time" layoutX="14.0" layoutY="226.0" prefHeight="25.0" prefWidth="403.0" />
+      <Text layoutX="14.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ваше образование:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Опыт работы:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сколько времени готовы уделять:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
